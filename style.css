@@ -1,0 +1,20 @@
+header{
+  background-color: blue;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 2%;
+  border-block-start-color: black;
+  border-block-end-color: black;
+}
+header h1{
+  font-size: 350%;
+}
+
+#article p{
+  padding-left: 1%
+}
+
+footer{
+  background-color: blue;
+  margin-bottom: 30%;
+}
