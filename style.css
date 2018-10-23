@@ -1,20 +1,40 @@
 header{
-  background-color: blue;
+  background-color: rgb(1, 1, 141);
   text-align: center;
   color: aliceblue;
   padding-top: 2%;
-  border-block-start-color: black;
-  border-block-end-color: black;
+  border: 2px solid black;
 }
+/* #main_text{
+  display: flex;
+  flex-direction: row;
+} */
+#main_text{
+  padding: 5%; 
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header h1{
   font-size: 350%;
 }
 
-#article p{
+#main_text p{
   padding-left: 1%
 }
 
 footer{
-  background-color: blue;
-  margin-bottom: 30%;
+  background-color: rgb(1, 1, 141);
+  padding: 15%;
+  border: 2px solid black;
+
 }
+
