@@ -28,23 +28,41 @@
   width: 80px;
   background-color: #555;
   border-radius: 50%;
+  transition: all .5s linear;
+}
+
+.light:hover{
+  box-shadow: 0 0 15px gray;
 }
 
 .red{
   top: 20%;
-  background-color: red;
+  background-color: darkred;
+}
+.red:hover{
+  background: red;
+  cursor: pointer;
+  box-shadow: 0 0 25px red;
 }
 
 .yellow{
   top: 50%;
   background-color: yellow;
 }
-
+.yellow:hover{
+  background: lightyellow;
+  cursor: pointer;
+  box-shadow: 0 0 25px lightyellow;
+}
 .green{
   top: 80%;
   background-color: green;
 }
-
+.green:hover{
+  background: lightgreen;
+  cursor: pointer;
+  box-shadow: 0 0 25px lightgreen;
+}
 .stoplight *{
   position: absolute;
 }
