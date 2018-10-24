@@ -1,0 +1,56 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.deathstar{
+  background-image: url(star_wars___death_star_wallpaper_by_rocklou-daqj3gl.png);
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mt{
+  margin-top: 100px;
+}
+
+.bg_icons{
+  height: 250px;
+  background: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.invert{
+  filter: invert(100%);
+}
+
+.image{
+  width: 80px;
+}
+
+.newsletter{
+  margin: 100px;
+}
+
+.location{
+  background-image: url(you_are_here.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.social{
+  height: 125px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.social-icon li {
+  color:whitesmoke;
+  vertical-align: top;
+  display: inline;
+}
