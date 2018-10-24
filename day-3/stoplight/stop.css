@@ -5,6 +5,7 @@
   height: 300px;
   width: 800px;
 }
+
 .pole{
   top: 0%;
   left: 56.5%;
@@ -31,14 +32,11 @@
   transition: all .5s linear;
 }
 
-.light:hover{
-  box-shadow: 0 0 15px gray;
-}
-
 .red{
   top: 20%;
   background-color: darkred;
 }
+
 .red:hover{
   background: red;
   cursor: pointer;
@@ -49,20 +47,24 @@
   top: 50%;
   background-color: yellow;
 }
+
 .yellow:hover{
   background: lightyellow;
   cursor: pointer;
   box-shadow: 0 0 25px lightyellow;
 }
+
 .green{
   top: 80%;
   background-color: green;
 }
+
 .green:hover{
   background: lightgreen;
   cursor: pointer;
   box-shadow: 0 0 25px lightgreen;
 }
+
 .stoplight *{
   position: absolute;
 }
